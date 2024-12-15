@@ -502,7 +502,7 @@ private:
 };
 
 // Compiler Class
-class Kabir_ka_Compiler {
+class Compiler {
 public:
     void compile(const string &sourceCode) {
         Lexer lexer(sourceCode);
@@ -664,8 +664,8 @@ void testFunction() {
 
     )";
 
-    Kabir_ka_Compiler Kabir_ka_Compiler;
-    Kabir_ka_Compiler.compile(sourceCode);
+    Compiler Compiler;
+    Compiler.compile(sourceCode);
 
     return 0;
 }
